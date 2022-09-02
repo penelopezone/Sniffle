@@ -96,7 +96,8 @@ The easiest way to obtain DSLite is to install [UniFlash](http://www.ti.com/tool
 from TI. It's available for Linux, Mac, and Windows. The DSLite executable will
 be located at `deskdb/content/TICloudAgent/linux/ccs_base/DebugServer/bin/DSLite`
 relative to the UniFlash installation directory. On Linux, the default UniFlash
-installation directory is inside `~/ti/`.
+installation directory is inside `~/ti/`. On MacOS it defaults to 
+`/Applications/ti/uniflash_<version number>/deskdb/content/TICloudAgent/osx/ccs_base/DebugServer/bin/DSLite`
 
 You should place the DSLite executable directory within your `$PATH`.
 
